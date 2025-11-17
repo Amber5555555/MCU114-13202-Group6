@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Drink"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+
+    <RadioGroup
+        android:id="@+id/rgDrink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp">
+
+        <RadioButton
+            android:id="@+id/rbCoke"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Coke (可樂)" />
+
+        <RadioButton
+            android:id="@+id/rbIcedTea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Iced Tea (冰茶)" />
+
+        <RadioButton
+            android:id="@+id/rbWater"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Water (水)" />
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/btnDone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Done" />
+
+</LinearLayout>
