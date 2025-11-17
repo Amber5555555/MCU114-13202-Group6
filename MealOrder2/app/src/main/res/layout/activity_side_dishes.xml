@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Side Dishes (choose at least one)"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/cbFries"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Fries (薯條)" />
+
+    <CheckBox
+        android:id="@+id/cbSalad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salad (沙拉)" />
+
+    <CheckBox
+        android:id="@+id/cbCornCup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Corn Cup (玉米杯)" />
+
+    <Button
+        android:id="@+id/btnDone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Done" />
+</LinearLayout>
